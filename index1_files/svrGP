@@ -1,0 +1,4 @@
+function GetElqContentPersonalizationValue(strDataField){ var strTemp = '';        if(strDataField == 'V_Total_Pages' || strDataField == 'Total_Pages'){strTemp = '2';}
+        if(strDataField == 'V_Total_Visits' || strDataField == 'Total_Visits'){strTemp = '1';}
+        if(strDataField == 'V_ElqCompanyName' || strDataField == 'ElqCompanyName'){strTemp = 'KABELOVA TELEVIZE CZ s.r.o.';}
+	return strTemp; } if (this.SetElqContent){ SetElqContent(); }
